@@ -1,0 +1,17 @@
+{
+  "name": "eslint-config-ruff",
+  "version": "1.0.0",
+  "description": "Eslint configuration for Ruff's projects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eslint",
+    "ruff",
+    "ruffpuff",
+    "esline-config"
+  ],
+  "author": "ruffpuff",
+  "license": "BSD-3-Clause"
+}
