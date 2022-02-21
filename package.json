@@ -1,6 +1,6 @@
 {
   "name": "@ruffpuff/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Eslint configuration for Ruff's projects.",
   "main": "dist/index.js",
   "scripts": {
