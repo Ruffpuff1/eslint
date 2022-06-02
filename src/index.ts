@@ -10,12 +10,13 @@
 const eslintConfig = {
     root: true,
     parser: '@typescript-eslint/parser',
+    plugins: ['jsx-a11y'],
     parserOptions: {
         project: '../tsconfig.json',
         sourceType: 'module',
         ecmaVersion: 2020,
     },
-    extends: ['plugin:@typescript-eslint/recommended'],
+    extends: ['plugin:@typescript-eslint/recommended', 'plugin:jsx-a11y/strict'],
     env: {
         node: true,
         es6: true,
